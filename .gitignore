@@ -1,0 +1,16 @@
+node_modules/
+**/__pycache__/
+*.pyc
+*.pyo
+.env
+.venv
+venv/
+*.egg-info/
+dist/
+build/
+.DS_Store
+*.log
+cosign.key
+cosign.pub
+konflux/
+k8s/
