@@ -4,7 +4,7 @@ from main import app, history
 
 client = TestClient(app)
 
-
+# dummy test to check if the tests are working
 @pytest.fixture(autouse=True)
 def clear_history_between_tests():
     """Reset in-memory history before every test."""
